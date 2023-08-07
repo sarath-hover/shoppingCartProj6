@@ -9,6 +9,14 @@
 body {
   font-family: sans-serif;
 }
+i {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
 
 /**
 * ! Navbar section
@@ -96,4 +104,23 @@ body {
 }
 .bi-plus-lg {
   color: green;
+}
+
+/**
+* ! style rules for label and buttons 
+**/
+
+.text-center {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home-btn {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 6px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
 }
